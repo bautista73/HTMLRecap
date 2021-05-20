@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Recap</title>
+</head>
+<body>
+<section style="font-family: fantasy;">
+    <h1>The World's Best Custard & Gelati</h1>
+    <section style="border:5px solid palegoldenrod; padding: .5rem;">
+        <p>Welcome to Custards! We have the world's best custard and gelati. Made fresh every day
+        our custard will surely make your day! Come try our delicious flavors in a cup or on
+        top of some Italian ice for an incredible combination!
+        </p>
+    </section>
+
+    <h2>Our Menu</h2>
+    <div style="background-color: skyblue; border:5px solid darkblue; padding: .5rem;">
+        <h3>Custard</h3>
+        <p>
+            Our specialty! We make delicous custard everyday in house so it's always fresh and ready
+            to serve. Try our custard in a cup, a cone, or take some home in a tub to share! We also
+            have toppings to compliment your frosty treat!
+        </p>
+    </div>
+    <br />
+    <div style="background-color: aquamarine; border:5px solid green ; padding: .5rem;">
+        <h3>Italian Ice</h3>
+        <p>
+            Our in-store made Italian ice will surely cool you off on a hot day! This isn't your
+            oridinary shaved-ice, its a perfect blend of icey flavor that will cool your taste buds
+            through the entire experience!
+        </p>
+    </div>
+    <br />
+    <div style="background-color:moccasin; border:5px solid tan ; padding: .5rem;">
+        <h3>Gelati</h3>
+        <p>
+            Can't decide between Custard or Shaved Ice? Well lucky for you, we've combined the
+            two for you to bring the best of both worlds for the ultimate icey delicacy! 
+        </p>
+    </div>
+    <h2>Order Here</h2>
+    <div style="border: solid 5px palegoldenrod; padding: .5rem;">
+        <form>
+            <fieldset>
+                <legend>Customer Information</legend>
+                <p>
+                    <label>
+                        Customer Name:
+                        <input name="name" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Telephone:
+                        <input type="tel" name="tel" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Email Address:
+                        <input type="email" name="email" />
+                    </label>
+                </p>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Custard Flavors</legend>
+                <p>
+                    <input type="radio" name="size"
+                        id="size0" value="size0" />
+                    <label for="size0">Vanilla</label>
+                </p>
+                <p>
+                    <input type="radio" name="size"
+                        id="size1" value="size1" />
+                    <label for="size1">Chocolate</label>
+                </p>
+                <p>
+                    <input type="radio" name="size"
+                        id="size2" value="size2" />
+                    <label for="size2">Strawberry</label>
+                </p>
+                <p>
+                    <input type="radio" name="size"
+                        id="size3" value="size3" />
+                    <label for="size3">Mint</label>
+                </p>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Italian Ice Flavors</legend>
+                <p>
+                    <input type="radio" name="size"
+                        id="size4" value="size4" />
+                    <label for="size4">Cherry</label>
+                </p>
+                <p>
+                    <input type="radio" name="size"
+                        id="size5" value="size5" />
+                    <label for="size5">Blue Berry</label>
+                </p>
+                <p>
+                    <input type="radio" name="size"
+                        id="size6" value="size6" />
+                    <label for="size6">Cookie Dough</label>
+                </p>
+                <p>
+                    <input type="radio" name="size"
+                        id="size7" value="size7" />
+                    <label for="size7">Rocket Pop</label>
+                </p>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Gelati Combinations</legend>
+                <p>
+                    <input type="radio" name="size"
+                        id="size4" value="size4" />
+                    <label for="size4">Vanilla Custard & Cherry Ice</label>
+                </p>
+                <p>
+                    <input type="radio" name="size"
+                        id="size5" value="size5" />
+                    <label for="size5">Chocolate Custard & Cookie Dough Ice</label>
+                </p>
+                <p>
+                    <input type="radio" name="size"
+                        id="size6" value="size6" />
+                    <label for="size6">Strawberry Custard & Cherry Ice</label>
+                </p>
+                <p>
+                    <input type="radio" name="size"
+                        id="size7" value="size7" />
+                    <label for="size7">Mint Custard & Rocket Pop Ice</label>
+                </p>
+                <p>
+                    <label for="custom order">Custom Order</label>
+                    <textarea id="customer order" name="custome order" rows="1" cols="50"></textarea>   
+                </p>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Toppings</legend>
+                <p>
+                    <input type="checkbox" name="toppings"
+                        id="oreos" value="oreos" />
+                    <label for="oreos">Oreos</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="toppings"
+                        id="gummy worms" value="gummy worms" />
+                    <label for="gummy worms">Gummy Worms</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="toppings"
+                        id="chocolate chips" value="chocolate chips" />
+                    <label for="chocolate chips">Chocolate Chips</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="toppings"
+                        id="sprinkles" value="sprinkles" />
+                    <label for="sprinkles">Sprinkles</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="toppings"
+                        id="caramel" value="caramel" />
+                    <label for="caramel">Caramel</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="toppings"
+                        id="m&ms" value="m&ms" />
+                    <label for="m&ms">M&M's</label>
+                </p>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Schedule Pick Up </legend>
+                <p>
+                    <label for="time">Preferred Pickup Time:</label>
+                    <input id="time" name="time" type="time"
+                        min="11:00" max="21:00">
+                </p>
+                <p>
+                    <button type="submit">Submit Order</button>
+                </p>
+            </fieldset>
+        </form>
+    </div> 
+    <br />
+    <h3>Some custard lore while you wait for your order</h3>
+        <iframe src="https://www.youtube.com/watch?v=Wd8Bgl-uWUM"
+            frameborder="0"
+            width="460" height="215"
+            allowfullscreen>
+        </iframe>
+    <nav>
+        <footer style="background-color: palegoldenrod;">
+            <p>Copyright @ 2021 The World's Best Custard & Gelati</p>
+            <p>
+                <a href="#about">About Us</a> -
+                <a href="#policy">Policy</a> -
+                <a href="#contact">Contact Us</a> -
+                <a href="#nutrition facts">Nutrition Facts</a>
+            </p>
+        </footer> 
+    </nav>    
+</section> 
+</body>
+</html>
